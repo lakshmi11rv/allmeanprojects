@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Calculation
+        </title>
+        <script>
+            function Add()
+            {
+                var Operand1 = document.getElementById("Operand1").value;
+                var Operand2 = document.getElementById("Operand2").value;
+                var Sum1 = parseint(Operand1) + parseint(Operand2);
+                document.getElementById("result").innerHTML = Sum1;
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+                <table>
+                        <tr>
+                            <td>
+                                Operand1
+                            </td>
+                            <td>
+                                <Input type ="text"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Operand2
+                            </td>
+                            <td>
+                                <Input type ="text"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="Add()">Add</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Result is
+                            </td>
+                            <td>
+                                <p id= "result">
+                            </td>
+                        </tr>
+                    </table>
+        </form>
+    </body>
+</html>

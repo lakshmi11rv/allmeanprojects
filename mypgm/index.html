@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href = "mystyles.css"/>
+        <title>
+            College App
+        </title>
+        <script>
+        function Login()
+        {
+            // console.log("Clicked")
+            //alert("clicked")
+            var Username = document.getElementById("Username").value;
+            //console.log(Username)
+            var Password = document.getElementById("Password").value;
+            //alert(Username+Password);
+            if (Username == "admin" && Password == "1234")
+            {
+                alert("Login Successfull")
+            }
+            else
+            {
+                alert("Invalid User")
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <form>
+            <div class="wrapper">
+                <h2>LOGIN</h2>
+                <input type = "text" placeholder = "Enter your name" id = "Username"/>
+                <input type = "password" placeholder = "Enter your password" id= "Password"/>
+                <button class="btn-login" onclick="Login()">Login</button>
+            </div>
+            <!-- <table>
+                <tr>
+                    <td>
+                        User Name
+                    </td>
+                    <td>
+                        <Input type ="text"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        <Input type ="password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Input type ="reset"/>
+                    </td>
+                    <td>
+                        <button>Login</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        New user
+                    </td>
+                    <td>
+                        <link Click here/>
+                    </td>
+                </tr>
+            </table> -->
+        </form>
+    </body>
+</html>

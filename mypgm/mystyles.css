@@ -1,0 +1,18 @@
+body
+{
+    background-color: aqua;
+}
+.wrapper
+{
+    width: 450px;
+    overflow:hidden;
+    margin: auto;
+    background-color: blue;
+    padding: 20px;
+    margin-top: 300px;
+    border: 10px solid blueviolet;
+}
+
+.wrapper input
+{width 400px;
+}
